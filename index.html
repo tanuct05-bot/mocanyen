@@ -33,9 +33,10 @@
   .wrap{max-width:1180px;margin:0 auto;padding:0 22px}
   header.site{position:sticky;top:0;z-index:40;background:rgba(246,239,226,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
   .bar{display:flex;align-items:center;gap:18px;height:70px}
-  .brand{display:flex;align-items:baseline;gap:10px;text-decoration:none}
+  .brand{display:flex;align-items:center;gap:10px;text-decoration:none}
   .brand .mark{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:30px;color:var(--walnut);line-height:1}
   .brand .sub{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);font-weight:600}
+  .brand-logo{height:38px;width:38px;object-fit:contain;flex-shrink:0}
   nav.cats{display:flex;gap:6px;margin-left:auto;flex-wrap:wrap}
   nav.cats button{background:none;border:1px solid transparent;color:var(--walnut-2);font-size:13.5px;font-weight:500;padding:8px 14px;border-radius:999px;transition:.18s}
   nav.cats button:hover{background:var(--cream-2)}nav.cats button.on{background:var(--walnut);color:var(--paper)}
@@ -245,7 +246,7 @@
 <!-- ============ TRANG CÔNG KHAI ============ -->
 <div id="site">
   <header class="site"><div class="wrap bar">
-    <a class="brand" href="#" onclick="event.preventDefault();setCat('all')"><span class="mark">Mộc An Yên</span><span class="sub">Interior</span></a>
+    <a class="brand" href="#" onclick="event.preventDefault();setCat('all')"><img class="brand-logo" src="/images/logo.png" alt=""><span class="mark">Mộc An Yên</span><span class="sub">Interior</span></a>
     <nav class="cats" id="navCats" aria-label="Danh mục sản phẩm"></nav>
     <button class="cart-btn" onclick="openCart()" aria-label="Giỏ hàng">🛒<span class="cart-badge hidden" id="cartCount">0</span></button>
   </div></header>
@@ -281,7 +282,7 @@
 
   <footer class="site">
     <div class="wrap cols">
-      <div><div class="mark">Mộc An Yên</div><p id="hcFooterIntro">Nội thất & đồ gỗ thủ công. Mọi sản phẩm được đóng thật, hoàn thiện thật tại xưởng — không sơn phủ che khuyết điểm gỗ.</p></div>
+      <div><div class="mark" style="display:flex;align-items:center;gap:8px"><img class="brand-logo" style="height:30px;width:30px" src="/images/logo.png" alt="">Mộc An Yên</div><p id="hcFooterIntro">Nội thất & đồ gỗ thủ công. Mọi sản phẩm được đóng thật, hoàn thiện thật tại xưởng — không sơn phủ che khuyết điểm gỗ.</p></div>
       <div><h4>Xưởng sản xuất</h4><p id="hcWorkshopAddr">Đang cập nhật địa chỉ</p><p><span id="hcWorkshopHours">Giờ làm việc: 8:00 – 18:00</span></p></div>
       <div><h4>Kênh chính thức</h4><a id="footShopee" href="#" target="_blank" rel="noopener">Gian hàng Shopee →</a><a id="footTiktok" href="#" target="_blank" rel="noopener" class="hidden">TikTok · Mộc An Yên</a><a id="footFacebook" href="#" target="_blank" rel="noopener" class="hidden">Facebook · Mộc An Yên</a></div>
     </div>
@@ -294,6 +295,7 @@
 <!-- ============ CỔNG MẬT KHẨU ============ -->
 <div id="adminGate" class="hidden">
   <div class="gate">
+    <img class="brand-logo" style="height:56px;width:56px;margin:0 auto 8px" src="/images/logo.png" alt="">
     <div class="gate-mark">Mộc An Yên</div>
     <p>Nhập mật khẩu để vào khu quản trị.</p>
     <input class="input" type="password" id="gatePass" placeholder="Mật khẩu quản trị" autocomplete="current-password">
@@ -306,7 +308,7 @@
 <!-- ============ QUẢN TRỊ ============ -->
 <div id="admin" class="admin hidden">
   <div class="admin-top"><div class="wrap bar">
-    <span class="mark">Mộc An Yên</span><span class="tag">Quản trị</span>
+    <img class="brand-logo" style="height:28px;width:28px" src="/images/logo.png" alt=""><span class="mark">Mộc An Yên</span><span class="tag">Quản trị</span>
     <div class="tools">
       <button class="abtn primary" onclick="publish()">⬆ Đăng lên GitHub</button>
       <button class="abtn" onclick="reloadFromGit()">↻ Tải lại</button>
