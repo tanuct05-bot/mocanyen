@@ -1,0 +1,82 @@
+{
+  "products": [
+    {
+      "id": "pmsib14btd9k0",
+      "name": "Tranh chữ Tâm - dát vàng",
+      "cat": "Tranh Gỗ",
+      "price": "",
+      "url": "",
+      "desc": "Tranh chữ Tâm được chế tác thủ công từ gỗ tự nhiên, dát vàng tinh xảo, không sơn phủ, giữ nguyên vẻ đẹp mộc mạc của vân gỗ. Kích thước tiêu chuẩn 60x60cm, phù hợp trang trí mọi không gian.",
+      "feat": true,
+      "images": [
+        "images/pmsib14btd9k0-msib2ajl094v.jpg",
+        "images/pmsib14btd9k0-msib2ciy1el6.jpg"
+      ]
+    },
+    {
+      "id": "pmrd7ycoh4czz",
+      "name": "Khay gỗ óc chó chữ nhật",
+      "cat": "Khay gỗ",
+      "price": "350.000₫",
+      "url": "",
+      "desc": "Khay phục vụ / bày trà từ gỗ óc chó nguyên khối. Dầu lau thực phẩm. 30×20×3cm.",
+      "feat": true,
+      "images": [
+        "images/pmrd7ycoh4czz-mrdayxob1ttb.jpg",
+        "images/pmrd7ycoh4czz-mrdbmnec1m92.jpg"
+      ]
+    },
+    {
+      "id": "pmrd7ycohk005",
+      "name": "Bàn trà gỗ sồi mộc",
+      "cat": "Bàn trà",
+      "price": "2.900.000₫",
+      "url": "",
+      "desc": "Bàn trà mặt liền gỗ sồi, chân tháo lắp. Hoàn thiện dầu tự nhiên giữ vân gỗ thật.",
+      "feat": false,
+      "images": [
+        "data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='400' height='300' fill='%237A5E44'/%3E%3Crect width='400' height='300' fill='%23000' opacity='0.06'/%3E%3Ctext x='50%' y='52%' font-family='serif' font-size='34' fill='%23FBF6EC' text-anchor='middle' opacity='.85'%3EM%E1%BB%99c An Y%C3%AAn%3C/text%3E%3C/svg%3E"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "name": "Khay gỗ",
+      "parent": null
+    },
+    {
+      "name": "Bàn trà",
+      "parent": null
+    },
+    {
+      "name": "Bàn ghế phòng trà",
+      "parent": null
+    },
+    {
+      "name": "Tranh Gỗ",
+      "parent": null
+    }
+  ],
+  "siteContent": {
+    "eyebrow": "Xưởng mộc thủ công",
+    "title": "Đồ Decor Mộc An Yên",
+    "titleEm": "Tinh hoa từ Gỗ tự nhiên.",
+    "desc": "Mộc An Yên là xưởng nội thất thủ công chuyên sâu về gỗ tự nhiên, cam kết giữ trọn vẻ đẹp nguyên bản của từng thớ gỗ. Chúng tôi không dùng sơn phủ để che khuyết điểm, mà tập trung vào tay nghề thợ mộc để tạo nên sản phẩm bền vững. Mời quý khách xem mẫu và đặt mua trên Shopee.",
+    "note": "Giá và tình trạng hàng cập nhật trên Shopee.",
+    "trust1": "Gỗ thật, vân tự nhiên",
+    "trust2": "Mua bán an toàn Shopee",
+    "trust3": "Đổi trả theo Shopee",
+    "heroImage": "",
+    "footerIntro": "Mộc An Yên cam kết chất lượng gỗ thật, được chọn lọc và chế tác thủ công tỉ mỉ. Chúng tôi không che giấu vẻ đẹp tự nhiên của gỗ bằng sơn phủ, mang đến sản phẩm bền đẹp, giá trị thực.",
+    "workshopAddr": "Đang cập nhật địa chỉ",
+    "workshopHours": "Giờ làm việc: 8:00 – 18:00",
+    "footerLegal": "Website chỉ giới thiệu sản phẩm — mọi giao dịch mua bán, thanh toán, vận chuyển và đổi trả được thực hiện trực tiếp trên Shopee."
+  },
+  "settings": {
+    "shopee": "",
+    "tiktok": "",
+    "facebook": "",
+    "maxDim": 1400,
+    "quality": 0.82
+  }
+}
